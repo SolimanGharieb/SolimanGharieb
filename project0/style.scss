@@ -1,0 +1,81 @@
+$background:#eeeeee;
+$barTextColor:white;
+$barColor:#333;
+
+
+
+
+
+body{
+  background-color: $background;
+}
+header{
+  background-color: $barColor;
+}
+
+h1{
+  float: left;
+  color: $barTextColor;
+  text-align: left;
+  font-size: 17px;
+  margin: 1%;
+}
+img {
+  display: inline-block;
+  float: left;
+  opacity: 0.89;
+  width: 30%;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: $barColor;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: $barTextColor;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -100px;
+  padding: 8%;
+  text-align: center;
+}
+.footer{
+  float: right;
+  color: $barColor;
+}
+.mountan{
+  display: inline-block;
+  float: left;
+  width: 180%;
+}
+.cr{
+  float: left;
+  width: 150%;
+  margin-top: 1%;
+  margin-left: 1%;
+}
+.contact{
+  float: left;
+  width: 90%;
+}
